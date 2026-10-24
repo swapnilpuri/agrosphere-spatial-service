@@ -1,0 +1,23 @@
+name: Spatial service
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+          cache: maven
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: chmod +x mvnw
+      - run: ./mvnw --batch-mode --no-transfer-progress verify -Pintegration
+      - run: python -m pip install -r requirements-test.txt
+      - run: python scripts/validate_contracts.py
+      - run: docker build -t agrosphere-spatial-service:0.2.1 .
+      - run: python scripts/smoke_image.py

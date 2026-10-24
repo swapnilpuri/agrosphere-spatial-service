@@ -1,0 +1,90 @@
+spring:
+  application:
+    name: agrosphere-spatial-service
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: ${OIDC_ISSUER_URI}
+  jackson:
+    deserialization:
+      fail-on-unknown-properties: true
+  datasource:
+    url: ${DB_URL}
+    username: ${DB_USER}
+    password: ${DB_PASSWORD}
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate
+  flyway:
+    enabled: true
+  rabbitmq:
+    publisher-confirm-type: correlated
+    publisher-returns: true
+    template:
+      mandatory: true
+      observation-enabled: true
+    listener:
+      simple:
+        observation-enabled: true
+        default-requeue-rejected: false
+        retry:
+          enabled: true
+          max-attempts: 3
+          initial-interval: 500ms
+          multiplier: 2
+          max-interval: 2s
+    host: ${RABBITMQ_HOST:localhost}
+    username: ${RABBITMQ_USER}
+    password: ${RABBITMQ_PASSWORD}
+server:
+  port: ${SERVER_PORT:8082}
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+  endpoint:
+    health:
+      group:
+        readiness:
+          include: readinessState,db
+      probes:
+        enabled: true
+  otlp:
+    metrics:
+      export:
+        enabled: ${OTEL_METRICS_ENABLED:false}
+  tracing:
+    sampling:
+      probability: 0.1
+
+spatial:
+  security:
+    audience: ${OIDC_AUDIENCE:spatial-service}
+  consumer:
+    enabled: ${ESTATE_CONSUMER_ENABLED:false}
+  outbox:
+    enabled: ${OUTBOX_PUBLICATION_ENABLED:false}
+    max-attempts: ${OUTBOX_MAX_ATTEMPTS:10}
+    batch-size: ${OUTBOX_BATCH_SIZE:20}
+    retry-seconds: ${OUTBOX_RETRY_SECONDS:5}
+    confirm-timeout-seconds: ${OUTBOX_CONFIRM_TIMEOUT_SECONDS:5}
+    poll-ms: ${OUTBOX_POLL_MS:1000}
+  limits:
+    body-bytes: ${MAX_BODY_BYTES:2097152}
+    coordinates: ${MAX_COORDINATES:20000}
+    bbox-degrees: ${MAX_QUERY_BBOX_DEGREES:5}
+  rules:
+    minimum-area-hectares: ${MINIMUM_AREA_HECTARES:0}
+    overlap-tolerance-hectares: ${OVERLAP_TOLERANCE_HECTARES:0}
+logging:
+  level:
+    root: INFO
+    org.springframework: INFO
+  structured:
+    format:
+      console: logstash
+
+# Structured common fields are also present outside an active trace.

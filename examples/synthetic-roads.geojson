@@ -1,0 +1,45 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.0001,
+            6.005
+          ],
+          [
+            80.0199,
+            6.005
+          ]
+        ]
+      },
+      "properties": {
+        "dataProvenance": "SIMULATED",
+        "assetCode": "SYNTHETIC_ASSET_1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.01,
+            6.0001
+          ],
+          [
+            80.01,
+            6.0099
+          ]
+        ]
+      },
+      "properties": {
+        "dataProvenance": "SIMULATED",
+        "assetCode": "SYNTHETIC_ASSET_2"
+      }
+    }
+  ]
+}

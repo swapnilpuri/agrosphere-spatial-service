@@ -1,0 +1,25 @@
+# Overlay the existing infrastructure Compose file; paths resolve from that first file.
+services:
+  spatial:
+    image: agrosphere-spatial-service:0.2.1
+    build:
+      context: ../agrosphere-spatial-service
+    environment:
+      DB_URL: jdbc:postgresql://postgres:5432/agrosphere_spatial
+      DB_USER: agrosphere_spatial
+      DB_PASSWORD: ${SPATIAL_DB_PASSWORD:?Set private spatial password}
+      RABBITMQ_HOST: rabbitmq
+      RABBITMQ_USER: agrosphere
+      RABBITMQ_PASSWORD: ${RABBITMQ_PASSWORD:?Set private broker password}
+      OIDC_ISSUER_URI: ${OIDC_ISSUER_URI:?Set the exact advertised issuer reachable by the container}
+      OIDC_AUDIENCE: spatial-service
+      ESTATE_CONSUMER_ENABLED: 'true'
+      OUTBOX_PUBLICATION_ENABLED: 'true'
+      MINIMUM_AREA_HECTARES: ${MINIMUM_AREA_HECTARES:-0}
+      OVERLAP_TOLERANCE_HECTARES: ${OVERLAP_TOLERANCE_HECTARES:-0}
+    ports: ['127.0.0.1:8082:8082']
+    depends_on:
+      postgres:
+        condition: service_healthy
+      rabbitmq:
+        condition: service_healthy

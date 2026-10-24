@@ -1,0 +1,551 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "00000000-0000-0000-0000-000000000501",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80,
+              6
+            ],
+            [
+              80.02,
+              6
+            ],
+            [
+              80.02,
+              6.01
+            ],
+            [
+              80,
+              6.01
+            ],
+            [
+              80,
+              6
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "estateId": "00000000-0000-0000-0000-000000000001",
+        "referenceEntityId": "00000000-0000-0000-0000-000000000001",
+        "referenceEntityType": "ESTATE",
+        "featureCode": "SYNTHETIC_ESTATE",
+        "srid": 4326,
+        "status": "ACTIVE",
+        "sourceType": "GENERATED",
+        "sourceReference": "Synthetic sample near 80E, 6N; not a real plantation",
+        "dataProvenance": "SIMULATED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "00000000-0000-0000-0000-000000000502",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80,
+              6
+            ],
+            [
+              80.01,
+              6
+            ],
+            [
+              80.01,
+              6.01
+            ],
+            [
+              80,
+              6.01
+            ],
+            [
+              80,
+              6
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "estateId": "00000000-0000-0000-0000-000000000001",
+        "referenceEntityId": "00000000-0000-0000-0000-000000000002",
+        "referenceEntityType": "DIVISION",
+        "featureCode": "SYNTHETIC_DIV_A",
+        "srid": 4326,
+        "status": "ACTIVE",
+        "sourceType": "GENERATED",
+        "sourceReference": "Synthetic sample near 80E, 6N; not a real plantation",
+        "dataProvenance": "SIMULATED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "00000000-0000-0000-0000-000000000504",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.01,
+              6
+            ],
+            [
+              80.02,
+              6
+            ],
+            [
+              80.02,
+              6.01
+            ],
+            [
+              80.01,
+              6.01
+            ],
+            [
+              80.01,
+              6
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "estateId": "00000000-0000-0000-0000-000000000001",
+        "referenceEntityId": "00000000-0000-0000-0000-000000000004",
+        "referenceEntityType": "DIVISION",
+        "featureCode": "SYNTHETIC_DIV_B",
+        "srid": 4326,
+        "status": "ACTIVE",
+        "sourceType": "GENERATED",
+        "sourceReference": "Synthetic sample near 80E, 6N; not a real plantation",
+        "dataProvenance": "SIMULATED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "00000000-0000-0000-0000-000000000503",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.0002,
+              6.0002
+            ],
+            [
+              80.0098,
+              6.0002
+            ],
+            [
+              80.0098,
+              6.0018
+            ],
+            [
+              80.0002,
+              6.0018
+            ],
+            [
+              80.0002,
+              6.0002
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "estateId": "00000000-0000-0000-0000-000000000001",
+        "referenceEntityId": "00000000-0000-0000-0000-000000000003",
+        "referenceEntityType": "BLOCK",
+        "featureCode": "SYNTHETIC_BLOCK_1",
+        "srid": 4326,
+        "status": "ACTIVE",
+        "sourceType": "GENERATED",
+        "sourceReference": "Synthetic sample near 80E, 6N; not a real plantation",
+        "dataProvenance": "SIMULATED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "00000000-0000-0000-0000-000000000511",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.0002,
+              6.0022
+            ],
+            [
+              80.0098,
+              6.0022
+            ],
+            [
+              80.0098,
+              6.0038
+            ],
+            [
+              80.0002,
+              6.0038
+            ],
+            [
+              80.0002,
+              6.0022
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "estateId": "00000000-0000-0000-0000-000000000001",
+        "referenceEntityId": "00000000-0000-0000-0000-000000000011",
+        "referenceEntityType": "BLOCK",
+        "featureCode": "SYNTHETIC_BLOCK_2",
+        "srid": 4326,
+        "status": "ACTIVE",
+        "sourceType": "GENERATED",
+        "sourceReference": "Synthetic sample near 80E, 6N; not a real plantation",
+        "dataProvenance": "SIMULATED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "00000000-0000-0000-0000-000000000512",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.0002,
+              6.0042
+            ],
+            [
+              80.0098,
+              6.0042
+            ],
+            [
+              80.0098,
+              6.0058
+            ],
+            [
+              80.0002,
+              6.0058
+            ],
+            [
+              80.0002,
+              6.0042
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "estateId": "00000000-0000-0000-0000-000000000001",
+        "referenceEntityId": "00000000-0000-0000-0000-000000000012",
+        "referenceEntityType": "BLOCK",
+        "featureCode": "SYNTHETIC_BLOCK_3",
+        "srid": 4326,
+        "status": "ACTIVE",
+        "sourceType": "GENERATED",
+        "sourceReference": "Synthetic sample near 80E, 6N; not a real plantation",
+        "dataProvenance": "SIMULATED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "00000000-0000-0000-0000-000000000513",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.0002,
+              6.0062
+            ],
+            [
+              80.0098,
+              6.0062
+            ],
+            [
+              80.0098,
+              6.0078
+            ],
+            [
+              80.0002,
+              6.0078
+            ],
+            [
+              80.0002,
+              6.0062
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "estateId": "00000000-0000-0000-0000-000000000001",
+        "referenceEntityId": "00000000-0000-0000-0000-000000000013",
+        "referenceEntityType": "BLOCK",
+        "featureCode": "SYNTHETIC_BLOCK_4",
+        "srid": 4326,
+        "status": "ACTIVE",
+        "sourceType": "GENERATED",
+        "sourceReference": "Synthetic sample near 80E, 6N; not a real plantation",
+        "dataProvenance": "SIMULATED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "00000000-0000-0000-0000-000000000514",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.0002,
+              6.0082
+            ],
+            [
+              80.0098,
+              6.0082
+            ],
+            [
+              80.0098,
+              6.0098
+            ],
+            [
+              80.0002,
+              6.0098
+            ],
+            [
+              80.0002,
+              6.0082
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "estateId": "00000000-0000-0000-0000-000000000001",
+        "referenceEntityId": "00000000-0000-0000-0000-000000000014",
+        "referenceEntityType": "BLOCK",
+        "featureCode": "SYNTHETIC_BLOCK_5",
+        "srid": 4326,
+        "status": "ACTIVE",
+        "sourceType": "GENERATED",
+        "sourceReference": "Synthetic sample near 80E, 6N; not a real plantation",
+        "dataProvenance": "SIMULATED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "00000000-0000-0000-0000-000000000515",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.0102,
+              6.0002
+            ],
+            [
+              80.0198,
+              6.0002
+            ],
+            [
+              80.0198,
+              6.0018
+            ],
+            [
+              80.0102,
+              6.0018
+            ],
+            [
+              80.0102,
+              6.0002
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "estateId": "00000000-0000-0000-0000-000000000001",
+        "referenceEntityId": "00000000-0000-0000-0000-000000000015",
+        "referenceEntityType": "BLOCK",
+        "featureCode": "SYNTHETIC_BLOCK_6",
+        "srid": 4326,
+        "status": "ACTIVE",
+        "sourceType": "GENERATED",
+        "sourceReference": "Synthetic sample near 80E, 6N; not a real plantation",
+        "dataProvenance": "SIMULATED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "00000000-0000-0000-0000-000000000516",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.0102,
+              6.0022
+            ],
+            [
+              80.0198,
+              6.0022
+            ],
+            [
+              80.0198,
+              6.0038
+            ],
+            [
+              80.0102,
+              6.0038
+            ],
+            [
+              80.0102,
+              6.0022
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "estateId": "00000000-0000-0000-0000-000000000001",
+        "referenceEntityId": "00000000-0000-0000-0000-000000000016",
+        "referenceEntityType": "BLOCK",
+        "featureCode": "SYNTHETIC_BLOCK_7",
+        "srid": 4326,
+        "status": "ACTIVE",
+        "sourceType": "GENERATED",
+        "sourceReference": "Synthetic sample near 80E, 6N; not a real plantation",
+        "dataProvenance": "SIMULATED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "00000000-0000-0000-0000-000000000517",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.0102,
+              6.0042
+            ],
+            [
+              80.0198,
+              6.0042
+            ],
+            [
+              80.0198,
+              6.0058
+            ],
+            [
+              80.0102,
+              6.0058
+            ],
+            [
+              80.0102,
+              6.0042
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "estateId": "00000000-0000-0000-0000-000000000001",
+        "referenceEntityId": "00000000-0000-0000-0000-000000000017",
+        "referenceEntityType": "BLOCK",
+        "featureCode": "SYNTHETIC_BLOCK_8",
+        "srid": 4326,
+        "status": "ACTIVE",
+        "sourceType": "GENERATED",
+        "sourceReference": "Synthetic sample near 80E, 6N; not a real plantation",
+        "dataProvenance": "SIMULATED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "00000000-0000-0000-0000-000000000518",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.0102,
+              6.0062
+            ],
+            [
+              80.0198,
+              6.0062
+            ],
+            [
+              80.0198,
+              6.0078
+            ],
+            [
+              80.0102,
+              6.0078
+            ],
+            [
+              80.0102,
+              6.0062
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "estateId": "00000000-0000-0000-0000-000000000001",
+        "referenceEntityId": "00000000-0000-0000-0000-000000000018",
+        "referenceEntityType": "BLOCK",
+        "featureCode": "SYNTHETIC_BLOCK_9",
+        "srid": 4326,
+        "status": "ACTIVE",
+        "sourceType": "GENERATED",
+        "sourceReference": "Synthetic sample near 80E, 6N; not a real plantation",
+        "dataProvenance": "SIMULATED"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "00000000-0000-0000-0000-000000000519",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.0102,
+              6.0082
+            ],
+            [
+              80.0198,
+              6.0082
+            ],
+            [
+              80.0198,
+              6.0098
+            ],
+            [
+              80.0102,
+              6.0098
+            ],
+            [
+              80.0102,
+              6.0082
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "estateId": "00000000-0000-0000-0000-000000000001",
+        "referenceEntityId": "00000000-0000-0000-0000-000000000019",
+        "referenceEntityType": "BLOCK",
+        "featureCode": "SYNTHETIC_BLOCK_10",
+        "srid": 4326,
+        "status": "ACTIVE",
+        "sourceType": "GENERATED",
+        "sourceReference": "Synthetic sample near 80E, 6N; not a real plantation",
+        "dataProvenance": "SIMULATED"
+      }
+    }
+  ]
+}

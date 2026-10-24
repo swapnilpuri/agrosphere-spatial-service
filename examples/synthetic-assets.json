@@ -1,0 +1,177 @@
+[
+  {
+    "estateId": "00000000-0000-0000-0000-000000000001",
+    "assetCode": "SYNTHETIC_ASSET_1",
+    "assetType": "ROAD",
+    "assetUri": "https://assets.example.invalid/synthetic/road.glb",
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        80.001,
+        6.005
+      ]
+    },
+    "orientation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "scale": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "status": "ACTIVE",
+    "dataProvenance": "SIMULATED"
+  },
+  {
+    "estateId": "00000000-0000-0000-0000-000000000001",
+    "assetCode": "SYNTHETIC_ASSET_2",
+    "assetType": "ROAD",
+    "assetUri": "https://assets.example.invalid/synthetic/road.glb",
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        80.003,
+        6.005
+      ]
+    },
+    "orientation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "scale": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "status": "ACTIVE",
+    "dataProvenance": "SIMULATED"
+  },
+  {
+    "estateId": "00000000-0000-0000-0000-000000000001",
+    "assetCode": "SYNTHETIC_ASSET_3",
+    "assetType": "FACTORY",
+    "assetUri": "https://assets.example.invalid/synthetic/factory.glb",
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        80.005,
+        6.005
+      ]
+    },
+    "orientation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "scale": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "status": "ACTIVE",
+    "dataProvenance": "SIMULATED"
+  },
+  {
+    "estateId": "00000000-0000-0000-0000-000000000001",
+    "assetCode": "SYNTHETIC_ASSET_4",
+    "assetType": "SENSOR_MARKER",
+    "assetUri": "https://assets.example.invalid/synthetic/sensor_marker.glb",
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        80.007,
+        6.005
+      ]
+    },
+    "orientation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "scale": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "status": "ACTIVE",
+    "dataProvenance": "SIMULATED"
+  },
+  {
+    "estateId": "00000000-0000-0000-0000-000000000001",
+    "assetCode": "SYNTHETIC_ASSET_5",
+    "assetType": "SENSOR_MARKER",
+    "assetUri": "https://assets.example.invalid/synthetic/sensor_marker.glb",
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        80.009,
+        6.005
+      ]
+    },
+    "orientation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "scale": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "status": "ACTIVE",
+    "dataProvenance": "SIMULATED"
+  },
+  {
+    "estateId": "00000000-0000-0000-0000-000000000001",
+    "assetCode": "SYNTHETIC_ASSET_6",
+    "assetType": "SENSOR_MARKER",
+    "assetUri": "https://assets.example.invalid/synthetic/sensor_marker.glb",
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        80.011,
+        6.005
+      ]
+    },
+    "orientation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "scale": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "status": "ACTIVE",
+    "dataProvenance": "SIMULATED"
+  },
+  {
+    "estateId": "00000000-0000-0000-0000-000000000001",
+    "assetCode": "SYNTHETIC_ASSET_7",
+    "assetType": "TREE_MODEL",
+    "assetUri": "https://assets.example.invalid/synthetic/tree_model.glb",
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        80.013,
+        6.005
+      ]
+    },
+    "orientation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "scale": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "status": "ACTIVE",
+    "dataProvenance": "SIMULATED"
+  }
+]
