@@ -63,8 +63,8 @@ try:
     user=docker('inspect','--format','{{.Config.User}}',application)
     assert user=='10001:10001', user
     version=docker('exec',application,'java','-version')
-    assert '21.' in version, version
-    print('PASS: built Java 21 image starts as 10001:10001, migrates PostGIS, passes readiness/liveness and denies unauthenticated business access')
+    assert '25.' in version, version
+    print('PASS: built Java 25 image starts as 10001:10001, migrates PostGIS, passes readiness/liveness and denies unauthenticated business access')
 finally:
     for container in (application,database):
         subprocess.run(['docker','rm','-f',container],stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL)

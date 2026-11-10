@@ -4,7 +4,7 @@ Work within this independent Git repository. No parent repository, submodules, s
 
 Current scope: Milestone 1B Spatial plus requested Milestone 1C integration patches only; preserve GIS semantics, event projection, contracts and persistence ownership.
 
-Use ports/adapters and service-owned Flyway migrations. Java 21, Spring Boot 4.0.9, Maven Wrapper 3.9.12 and JUnit 5.14.4. Manage Spring integration contexts explicitly; do not use SpringExtension under this baseline. Advanced PostGIS SQL is parameterized and uses the local datasource only.
+Use ports/adapters and service-owned Flyway migrations. Java 25, Spring Boot 4.0.9, Maven Wrapper 3.9.12 and JUnit 5.14.4. Manage Spring integration contexts explicitly; do not use SpringExtension under this baseline. Advanced PostGIS SQL is parameterized and uses the local datasource only.
 
 Versioned contracts are pinned under src/main/resources/contracts from contracts release 0.3.0. Coordinate schema changes through an independent contract release; never add sibling source dependencies. Never modify Estate Service internals or duplicate its business attributes. Canonical entity UUIDs remain stable across geometry versions.
 
